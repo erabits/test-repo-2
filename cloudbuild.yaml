@@ -1,0 +1,5 @@
+steps:
+    # Run npm install
+    - name: 'gcr.io/cloud-builders/npm:node-10.10.0'
+      id: 'Version'
+      args: ['--version']
